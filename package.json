@@ -1,6 +1,7 @@
 {
   "name": "ryujin-landing-page",
   "private": true,
+  "homepage": "https://sslicerr.github.io/ryijun-landing-page/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
