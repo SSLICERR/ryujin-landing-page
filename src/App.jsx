@@ -8,6 +8,9 @@ function App() {
 
   return (
     <>
+    <head>
+    <link href="\src\css\stylesheet.css" rel="stylesheet"/>
+    </head>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -17,7 +20,7 @@ function App() {
         </a>
       </div>
       <h1 class="">Ryujin</h1>
-      <div className="card">
+      <div class="animate-textSpawn border border-black/75 bg-black/25 p-5 rounded-lg backdrop-blur-sm ">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
