@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
 
   return (
     <>
     <head>
-    <link href="\src\css\stylesheet.css" rel="stylesheet"/>
+    <link href="\src\css\style.css" rel="stylesheet"/>
 
     </head>
 
