@@ -16,8 +16,8 @@ function App() {
   <div class="snap-y w-full h-screen overflow-y-scroll snap-mandatory p-0 m-0">
     
   <div id="section1" class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen container bg-[url(https://i.imgur.com/zyqhIFk.png]">
-    <h2 class="text-3xl">Section 1</h2>
-    <p>Content for section 1...</p>
+    <h2 class=" text-center text-3xl">RYIJUN</h2>
+    <p class="text-center">Kämpfe dich durch die Wellen!</p>
   </div>
 
   <div id="section2" class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-gradient-to-b from-[#A27AD3] to-[rgba(0,0,0,0)]">
