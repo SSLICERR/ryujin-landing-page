@@ -1,11 +1,16 @@
 @import url('clash-display.css');
 @import "tailwindcss";
 
+@theme {
+    --color-*: initial;
+    --color-mygray: #242424;
+    --color-purple: #3f3cbb;
+    --color-midnight: #121063;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+  }
 
 
 
-h1{
-    font-family: ClashDisplay-Bold, sans-serif;
-}
 
 

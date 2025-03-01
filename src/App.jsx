@@ -11,7 +11,7 @@ function App() {
 
     </head>
 
-<body class="">
+<body class="bg-mygray">
   <div class="snap-y w-full h-screen overflow-y-scroll snap-mandatory p-0 m-0">
     
   <div id="section1" class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen container bg-[url(https://i.imgur.com/zyqhIFk.png]">
