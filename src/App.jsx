@@ -10,27 +10,54 @@ function App() {
     <>
     <head>
     <link href="\src\css\stylesheet.css" rel="stylesheet"/>
+
     </head>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1 class="">Ryujin</h1>
-      <div class="animate-textSpawn border border-black/75 bg-black/25 p-5 rounded-lg backdrop-blur-sm ">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+
+<body>
+  <div class="snap-y w-full h-screen overflow-y-scroll snap-mandatory p-0 m-0">
+    
+  <div id="section1" class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen container">
+    <h2 class="text-3xl">Section 1</h2>
+    <p>Content for section 1...</p>
+  </div>
+
+  <div id="section2" class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-gradient-to-b from-[#A27AD3] to-[rgba(0,0,0,0)]">
+    <h2 class="text-4xl text-center">ABOUT</h2>
+    <h3 class="text-center text-2xl pt-10">Tauche ein in die spannende Welt von Ryujin, einem actiongeladenen Spiel, bei dem du dich durch endlose Gegnerwellen kämpfen musst. 
+      Nutze dein Schwert und Heiltränke, die sich alle 30 Sekunden regenerieren, um am Leben zu bleiben. Jedes besiegte Monster bringt dich dem nächsten Shop näher, 
+      wo du deine Ausrüstung verbessern und neue Items kaufen kannst.
+      Entscheide selbst, wann du bereit bist, die nächste Welle zu starten, und bereite dich auf den ultimativen Bosskampf vor.</h3>
+    
+    <div class="flex space-x-5 place-content-center pt-10">
+      <div class="animate-textSpawn bg-black/25 p-5 rounded-lg backdrop-blur-sm">
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
+      <div class="animate-textSpawn bg-black/25 p-5 rounded-lg backdrop-blur-sm">
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      
+      <div class="animate-textSpawn bg-black/25 p-5 rounded-lg backdrop-blur-sm">
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="section3" class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-gradient-to-b from-[#A27AD3] to-[rgba(0,0,0,0)]">
+    <h2 class="text-3xl">Section 3</h2>
+    <p>Content for section 3...</p>
+  </div>
+  
+</div>
+</body>
+
+
     </>
   )
 }
