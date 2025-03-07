@@ -1,19 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link href="\src\css\style.css" rel="stylesheet"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <style>
-    #section1{
-      background: url("src/assets/bggif.gif") no-repeat ;
-    }
-  </style>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="src/assets/logo.png" />
+  <link href="\src\css\style.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+<style>
+  #section1 {
+    background: url("src/assets/bggif.gif") no-repeat;
+  }
+
+
+
+</style>
+
+<body>
+  <div id="root"></div>
+  <script>
+    const element = document.querySelector('#testr');
+const observer = new IntersectionObserver(entries => {
+  element.classList.toggle( 'fade-in-left-normal', entries[0].isIntersecting );
+});
+
+observer.observe( element );
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

@@ -1,14 +1,18 @@
 @import url('clash-display.css');
 @import "tailwindcss";
+@tailwind utilities;
 
 @theme {
     --color-*: initial;
-    --color-mygray: #242424;
-    --color-purple: #3f3cbb;
-    --color-midnight: #121063;
+    --color-myblack: #101010;
+    --color-mygray: #141414;
+    --color-myoutline: #212121;
     --color-tahiti: #3ab7bf;
     --color-bermuda: #78dcca;
   }
+
+
+  
 
 
 
