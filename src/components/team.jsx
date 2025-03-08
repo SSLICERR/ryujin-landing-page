@@ -15,12 +15,12 @@ const profiles = [
   {
     name: "Bahty",
     role: "Design / Character Design / 3D Modeling",
-    github: "",
+    github: "https://github.com/zbahty",
   },
   {
     name: "Can",
     role: "Back End",
-    github: "",
+    github: "https://github.com/Javaistcooler",
   },
   {
     name: "Levy",
