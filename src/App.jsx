@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import logo from "./assets/logo.png";
 import TeamSection from "./components/team";
 import AboutSection from "./components/about";
