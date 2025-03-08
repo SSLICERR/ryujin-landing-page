@@ -3,12 +3,15 @@ import reactLogo from "./assets/react.svg";
 import background from "./assets/Main.png";
 import pinktree from "./assets/tree.png";
 import char from "./assets/char.gif";
+import logo from "./assets/logo.png";
 
 function App() {
   return (
     <>
       <head>
         <link href="\src\css\style.css" rel="stylesheet" />
+        <title>RYUJIN</title>
+        <link rel="icon" href={logo} />
       </head>
 
       <body class="bg-myblack">
