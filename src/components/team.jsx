@@ -33,7 +33,7 @@ const TeamSection = () => (
   <section className="relative flex flex-col items-center justify-center min-h-screen bg-backgroundlight text-foregroundlight dark:bg-backgrounddark dark:text-foregrounddark -mt-40">
     <h1
       id="TeamTitle"
-      className="relative z-10 text-primary dark:text-primarylight font-clash text-3xl md:text-5xl text-mywhite"
+      className="relative z-10 text-primary dark:text-primarylight font-clashB text-3xl md:text-5xl text-mywhite"
     >
       Our Team
     </h1>

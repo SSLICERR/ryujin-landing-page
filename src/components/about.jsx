@@ -5,14 +5,14 @@ const AboutSection = () => (
   <>
     <h1
       id="TeamTitle"
-      className="relative z-10 text-primary dark:text-primarylight font-clash text-3xl md:text-5xl text-mywhite text-center"
+      className="relative z-10 text-primary dark:text-primarylight font-clashB text-3xl md:text-5xl text-mywhite text-center"
     >
       About
     </h1>
     <div className="flex justify-center items-center min-h-screen -mt-20">
       <div className="grid grid-cols-2 grid-rows-2 gap-5 p-5 w-300 h-170">
         <div className="col-start-1 col-end-3 row-start-1 row-end-2 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-sm hover:scale-105 transition-transform">
-          <p class="text-3xl text-bermuda">
+          <p class="text-3xl text-mywhite font-clashR">
             Tauche ein in die spannende Welt von Ryujin, einem actiongeladenen
             Spiel, bei dem du dich durch endlose Gegnerwellen kämpfen musst.
             Nutze dein Schwert und Heiltränke, die sich alle 30 Sekunden
@@ -21,11 +21,13 @@ const AboutSection = () => (
         </div>
 
         <div className="col-start-1 col-end-2 row-start-2 row-end-3 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-md hover:scale-105 transition-transform overflow-hidden">
-          <p className="text-bermuda ">hier kommt noch nen Bild oder so hin</p>
+          <p className="text-mywhite font-clashR">
+            hier kommt noch nen Bild oder so hin
+          </p>
         </div>
 
         <div className="col-start-2 col-end-4 row-start-2 row-end-3 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-lg hover:scale-105 transition-transform">
-          <p class="text-3xl text-bermuda">
+          <p class="text-3xl text-mywhite font-clashR">
             Jedes besiegte Monster bringt dich dem nächsten Shop näher, wo du
             deine Ausrüstung verbessern und neue Items kaufen kannst. Entscheide
             selbst, wann du bereit bist, die nächste Welle zu starten, und
