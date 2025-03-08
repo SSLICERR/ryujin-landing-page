@@ -19,14 +19,6 @@
 
 <body>
   <div id="root"></div>
-  <script>
-    const element = document.querySelector('#testr');
-const observer = new IntersectionObserver(entries => {
-  element.classList.toggle( 'fade-in-left-normal', entries[0].isIntersecting );
-});
-
-observer.observe( element );
-  </script>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
