@@ -10,8 +10,12 @@
     --color-mywhite: #FAF9F6;
     --color-bermuda: #78dcca;
 
-    --font-clash: "ClashDisplayBold";
-    --font-clashS: "ClashDisplay-Light"
+    --font-clashB: "ClashDisplayBold";
+    --font-clashL: "ClashDisplay-Light";
+    --font-clashEL: "ClashDisplay-Extralight";
+    --font-clashR: "ClashDisplay-Regular";
+    --font-clashM: "ClashDisplay-Medium";
+    --font-clashSB: "ClashDisplay-Semibold";
   }
 
 
