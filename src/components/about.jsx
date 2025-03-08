@@ -21,9 +21,7 @@ const AboutSection = () => (
         </div>
 
         <div className="col-start-1 col-end-2 row-start-2 row-end-3 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-md hover:scale-105 transition-transform overflow-hidden">
-          <p className="text-bermuda ">
-            Edit <code>src/App.jsx</code> and save to test HMR
-          </p>
+          <p className="text-bermuda ">hier kommt noch nen Bild oder so hin</p>
         </div>
 
         <div className="col-start-2 col-end-4 row-start-2 row-end-3 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-lg hover:scale-105 transition-transform">

@@ -20,7 +20,7 @@ function App() {
             id="section1"
             class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen "
           >
-            <div class=" text-w text-center text-3xl font-clash ">RYIJUN</div>
+            <div class=" text-w text-center text-3xl font-clash ">RYUJIN</div>
             <div class="text-center">Kämpf dich durch die Wellen!</div>
           </div>
 
@@ -28,7 +28,7 @@ function App() {
             id="section2"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
           >
-            <div className="align-middle self-center justify-center shadow-[0px_0px_184px_73px_rgba(250,249,246)]"></div>
+            <div className="align-middle self-center justify-center shadow-[0px_0px_184px_73px_rgba(250,249,246)] overflow-hidden"></div>
             <AboutSection></AboutSection>
           </div>
 
@@ -36,7 +36,7 @@ function App() {
             id="section3"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10"
           >
-            <div className="align-middle self-center justify-center shadow-[0px_0px_184px_73px_rgba(164,60,185,1)]"></div>
+            <div className="align-middle self-center justify-center shadow-[0px_0px_184px_73px_rgba(164,60,185,1)] overflow-hidden"></div>
 
             <TeamSection></TeamSection>
           </div>
