@@ -1,4 +1,5 @@
 import React from "react";
+import { HeartHandshake } from "./heart";
 
 const Footer = () => (
   <footer class="lg:snap-center h-1/2 box-border w-full relative mt-1/2 bg-black/50 backdrop-blur-sm p-10">
@@ -10,6 +11,12 @@ const Footer = () => (
         </a>
         <a class="hover:underline text-mywhite font-clashR" href="/privacy">
           Datenschutz
+        </a>
+        <a class="hover:underline text-mywhite font-clashR" href="/stats">
+          Website Stats
+        </a>
+        <a class="hover:underline text-mywhite font-clashR" href="/y">
+          Steam Page
         </a>
       </div>
       <div class="flex flex-col">
@@ -24,8 +31,9 @@ const Footer = () => (
         </a>
       </div>
     </div>
-    <div class="absolute bottom-10 left-10 text-mywhite font-clashR">
-      © Copyright macher.studios 2025 - All rights reserved.
+    <div class="absolute pt-50 left-10 text-mywhite font-clashR inline-block">
+      © Copyright macher.studios 2025 - All rights reserved. <br></br>
+      made with ♡ by slicer.
     </div>
   </footer>
 );
