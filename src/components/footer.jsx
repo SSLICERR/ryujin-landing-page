@@ -6,16 +6,28 @@ const Footer = () => (
     <div class="md:grid grid-cols-2 w-full text-white">
       <div class=" flex flex-col">
         <h1 class="font-clashB text-4xl mb-2 text-mywhite">macher.studios</h1>
-        <a class="hover:underline text-mywhite font-clashR" href="/imprint">
+        <a
+          class="hover:underline text-mywhite font-clashR"
+          href="/ryijun-landing-page/imprint"
+        >
           Impressum
         </a>
-        <a class="hover:underline text-mywhite font-clashR" href="/privacy">
+        <a
+          class="hover:underline text-mywhite font-clashR"
+          href="/ryijun-landing-page/privacy"
+        >
           Datenschutz
         </a>
-        <a class="hover:underline text-mywhite font-clashR" href="/stats">
+        <a
+          class="hover:underline text-mywhite font-clashR"
+          href="/ryijun-landing-page/stats"
+        >
           Website Stats
         </a>
-        <a class="hover:underline text-mywhite font-clashR" href="/y">
+        <a
+          class="hover:underline text-mywhite font-clashR"
+          href="/ryijun-landing-page/y"
+        >
           Steam Page
         </a>
       </div>

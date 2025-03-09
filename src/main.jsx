@@ -15,10 +15,9 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/imprint" element={<Impressum />} />
-        <Route path="/stats" element={<WebsiteStats />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/ryijun-landing-page" element={<App />} />
+        <Route path="/ryijun-landing-page/imprint" element={<Impressum />} />
+        <Route path="/ryijun-landing-page/stats" element={<WebsiteStats />} />
       </Routes>
     </Router>
   </StrictMode>
