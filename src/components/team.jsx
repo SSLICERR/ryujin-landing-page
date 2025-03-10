@@ -4,7 +4,7 @@ import ProfileCard from "./profilecard";
 const profiles = [
   {
     name: "Max",
-    role: "Back End / Web Dev",
+    role: "Back End / Web Dev / Team Lead",
     github: "https://github.com/SSLICERR",
   },
   {
@@ -14,26 +14,26 @@ const profiles = [
   },
   {
     name: "Bahty",
-    role: "Design / Character Design / 3D Modeling",
+    role: "Design / 3D Modeling",
     github: "https://github.com/zbahty",
   },
   {
     name: "Can",
-    role: "Back End",
+    role: "Lead Back End",
     github: "https://github.com/Javaistcooler",
   },
   {
     name: "Levy",
-    role: "Design / Character Design / 3D Modeling",
+    role: "Design / 3D Modeling",
     github: "",
   },
 ];
 
 const TeamSection = () => (
-  <section className="relative flex flex-col items-center justify-center min-h-screen bg-backgroundlight text-foregroundlight dark:bg-backgrounddark dark:text-foregrounddark -mt-40">
+  <section className="relative flex flex-col items-center justify-center min-h-screen -mt-40">
     <h1
       id="TeamTitle"
-      className="relative z-10 text-primary dark:text-primarylight font-clashB text-3xl md:text-5xl text-mywhite"
+      className="relative z-10 font-clashB text-3xl md:text-5xl text-mywhite"
     >
       Our Team
     </h1>
