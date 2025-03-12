@@ -2,43 +2,55 @@ import logo from "./assets/logo.png";
 import TeamSection from "./components/team";
 import AboutSection from "./components/about";
 import Footer from "./components/footer";
+import bg from "./assets/bg.png";
+import DevSection from "./components/development";
 
 function App() {
   return (
     <>
       <head>
         <link href="\src\css\style.css" rel="stylesheet" />
-        <title>RYUJIN</title>
+        <title className="">RYUJIN</title>
         <link rel="icon" href={logo} />
       </head>
 
       <body class="bg-myblack">
-        <div class="snap-y w-full h-screen overflow-y-scroll snap-mandatory p-0 m-0">
+        <div class=" w-full h-screen overflow-y-scroll  p-0 m-0">
           <div
             id="section1"
             class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen "
           >
-            <div class=" text-w text-center text-3xl font-clashB ">RYUJIN</div>
+            <div class=" text-w text-center text-3xl font-clashB tracking-widest">RYUJIN</div>
             <div class="text-center font-clashM">
               Kämpf dich durch die Wellen!
             </div>
           </div>
-
           <div
             id="section2"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
           >
-            <div className="align-middle self-center justify-center shadow-[0px_0px_184px_73px_rgba(250,249,246)] overflow-hidden"></div>
-            <AboutSection></AboutSection>
+            <div className="align-middle self-center justify-center ">
+             
+            </div>
+            <AboutSection />
+          </div>
+          <div
+            id="section3"
+            class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
+          >
+            <div className="align-middle self-center justify-center ">
+             
+            </div>
+            <DevSection/>
           </div>
 
           <div
-            id="section3"
+            id="section4"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10"
           >
-            <div className="align-middle self-center justify-center shadow-[0px_0px_184px_73px_rgba(164,60,185,1)] overflow-hidden"></div>
+            <div className="align-middle self-center justify-center "></div>
 
-            <TeamSection></TeamSection>
+            <TeamSection/>
           </div>
           <Footer></Footer>
         </div>
