@@ -2,7 +2,6 @@ import logo from "./assets/logo.png";
 import TeamSection from "./components/team";
 import AboutSection from "./components/about";
 import Footer from "./components/footer";
-import bg from "./assets/bg.png";
 import DevSection from "./components/development";
 
 function App() {
@@ -20,7 +19,9 @@ function App() {
             id="section1"
             class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen "
           >
-            <div class=" text-w text-center text-3xl font-clashB tracking-widest">RYUJIN</div>
+            <div class=" text-w text-center text-3xl font-clashB tracking-widest">
+              RYUJIN
+            </div>
             <div class="text-center font-clashM">
               Kämpf dich durch die Wellen!
             </div>
@@ -29,19 +30,15 @@ function App() {
             id="section2"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
           >
-            <div className="align-middle self-center justify-center ">
-             
-            </div>
+            <div className="align-middle self-center justify-center "></div>
             <AboutSection />
           </div>
           <div
             id="section3"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
           >
-            <div className="align-middle self-center justify-center ">
-             
-            </div>
-            <DevSection/>
+            <div className="align-middle self-center justify-center "></div>
+            <DevSection />
           </div>
 
           <div
@@ -50,7 +47,7 @@ function App() {
           >
             <div className="align-middle self-center justify-center "></div>
 
-            <TeamSection/>
+            <TeamSection />
           </div>
           <Footer></Footer>
         </div>

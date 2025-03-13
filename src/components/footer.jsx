@@ -1,5 +1,4 @@
 import React from "react";
-import { HeartHandshake } from "./heart";
 
 const Footer = () => (
   <footer class="lg:snap-center h-1/2 box-border w-full relative mt-1/2 bg-black/50 backdrop-blur-sm p-10">

@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import Impressum from "./pages/impressum.jsx";
 import WebsiteStats from "./pages/websiteStats.jsx";
-import NotFound from "./pages/notfound.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
