@@ -2,7 +2,7 @@ import logo from "./assets/logo.png";
 import TeamSection from "./components/team";
 import AboutSection from "./components/about";
 import Footer from "./components/footer";
-import DevSection from "./components/development";
+//import DevSection from "./components/development";
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
             class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
           >
             <div className="align-middle self-center justify-center "></div>
-            <DevSection />
+            {/*<DevSection />*/}
           </div>
 
           <div
