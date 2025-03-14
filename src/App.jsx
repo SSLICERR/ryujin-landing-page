@@ -19,13 +19,18 @@ function App() {
             id="section1"
             class="relative box-border lg:snap-center p-5 md:p-10 lg:h-screen "
           >
-            <div class=" text-w text-center text-3xl font-clashB tracking-widest">
+            <div class=" text-w text-center text-6xl font-clashB tracking-widest">
               RYUJIN
             </div>
+
             <div class="text-center font-clashM">
               Kämpf dich durch die Wellen!
             </div>
+            <div className="p-20 text-center">
+              <button className="btn btn-neutral">Download now</button>
+            </div>
           </div>
+
           <div
             id="section2"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
