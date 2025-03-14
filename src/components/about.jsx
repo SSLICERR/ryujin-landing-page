@@ -5,7 +5,7 @@ const AboutSection = () => (
   <>
     <h1
       id="TeamTitle"
-      className="relative z-10 text-primary font-clashB text-3xl md:text-5xl text-mywhite text-center"
+      className="relative z-10  font-clashB text-3xl md:text-5xl text-mywhite text-center"
     >
       About
     </h1>
