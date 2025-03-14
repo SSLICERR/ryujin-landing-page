@@ -1,6 +1,7 @@
 @import url('clash-display.css');
 @import "tailwindcss";
 @tailwind utilities;
+@plugin "daisyui";
 
 @theme {
     --color-*: initial;
