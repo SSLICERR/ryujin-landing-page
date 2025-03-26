@@ -2,10 +2,6 @@ import logo from "./assets/logo.png";
 import TeamSection from "./components/team";
 import AboutSection from "./components/about";
 import Footer from "./components/footer";
-//import DevSection from "./components/development";
-import { SiInstagram, SiX, SiYoutube } from "react-icons/si";
-import { SiSteam } from "react-icons/si";
-import { IoIosArrowDown } from "react-icons/io";
 import MainSection from "./components/mainSection";
 
 function App() {

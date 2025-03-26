@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  BrowserRouter,
 } from "react-router-dom";
 import Impressum from "./pages/impressum.jsx";
 import WebsiteStats from "./pages/websiteStats.jsx";
