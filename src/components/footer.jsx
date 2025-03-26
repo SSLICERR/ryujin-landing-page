@@ -7,25 +7,25 @@ const Footer = () => (
         <h1 class="font-clashB text-4xl mb-2 text-mywhite">macher.studios</h1>
         <a
           class="hover:underline text-mywhite font-clashR"
-          href="/ryijun-landing-page/imprint"
+          href="/ryujin-landing-page/imprint"
         >
           Impressum
         </a>
         <a
           class="hover:underline text-mywhite font-clashR"
-          href="/ryijun-landing-page/privacy"
+          href="/ryujin-landing-page/privacy"
         >
           Datenschutz
         </a>
         <a
           class="hover:underline text-mywhite font-clashR"
-          href="/ryijun-landing-page/stats"
+          href="/ryujin-landing-page/stats"
         >
           Website Stats
         </a>
         <a
           class="hover:underline text-mywhite font-clashR"
-          href="/ryijun-landing-page/y"
+          href="/ryujin-landing-page/y"
         >
           Steam Page
         </a>
