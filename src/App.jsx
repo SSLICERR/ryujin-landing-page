@@ -15,7 +15,7 @@ function App() {
 
       <body class="bg-myblack">
         <div class=" w-full h-screen overflow-y-scroll  p-0 m-0">
-          <MainSection/>
+          <MainSection />
 
           <div
             id="section2"
@@ -39,7 +39,7 @@ function App() {
 
             <TeamSection />
           </div>
-          <Footer/>
+          <Footer />
         </div>
       </body>
     </>
