@@ -2,6 +2,10 @@ import logo from "./assets/logo.png";
 import TeamSection from "./components/team";
 import AboutSection from "./components/about";
 import Footer from "./components/footer";
+//import DevSection from "./components/development";
+import { SiInstagram, SiX, SiYoutube } from "react-icons/si";
+import { SiSteam } from "react-icons/si";
+import { IoIosArrowDown } from "react-icons/io";
 import DevSection from "./components/development";
 
 function App() {
@@ -28,6 +32,39 @@ function App() {
             </div>
             <div className="p-20 text-center">
               <button className="btn btn-neutral" href="/">Join Waitlist</button>
+            </div>
+            <div className="text-center mt-100">
+              <button
+                className=" cursor-pointer p-2"
+                onClick="location.href='http://twitter.com"
+              >
+                <SiInstagram color="black" size={30} />
+              </button>
+              <button
+                className=" cursor-pointer p-2"
+                onClick="location.href='http://twitter.com"
+              >
+                <SiSteam color="black" size={30} />
+              </button>
+              <button
+                className=" cursor-pointer p-2"
+                onClick="location.href='http://twitter.com"
+              >
+                <SiX color="black" size={30} />
+              </button>
+              <button
+                className=" cursor-pointer p-2"
+                onClick="location.href='http://twitter.com"
+              >
+                <SiYoutube color="black" size={30} />
+              </button>
+              <div className="flex items-center justify-center pt-10">
+                <IoIosArrowDown
+                  className="animate-bounce "
+                  size={40}
+                  color="black"
+                />
+              </div>
             </div>
           </div>
 
