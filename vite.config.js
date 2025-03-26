@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/ryujin-landing-page",
+  base: "/ryujin-landing-page/",
   plugins: [react(),tailwindcss(),],
 
    
