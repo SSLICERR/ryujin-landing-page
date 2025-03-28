@@ -30,7 +30,7 @@ const profiles = [
 ];
 
 const TeamSection = () => (
-  <section className="relative flex flex-col items-center justify-center min-h-screen -mt-40">
+  <section className="relative flex flex-col items-center justify-center min-h-screen pt-100">
     <h1
       id="TeamTitle"
       className="relative z-10 font-clashB text-3xl md:text-5xl text-mywhite"

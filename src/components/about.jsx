@@ -40,14 +40,14 @@ const AboutSection = () => (
         </div>
 
         {/* New row starts here */}
-        <div className="col-start-1 col-end-2 row-start-3 row-end-4 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-md transition-transform">
+        <div className="col-start-1 col-end-3 row-start-3 row-end-4 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-md transition-transform">
           <p className="text-2xl text-mywhite font-clashR">
             Sammle Erfahrungspunkte und schalte neue Fähigkeiten frei, um noch
             mächtiger zu werden.
           </p>
         </div>
 
-        <div className="col-start-2 col-end-4 row-start-3 row-end-4 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-lg transition-transform">
+        <div className="col-start-3 col-end-4 row-start-3 row-end-4 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-lg transition-transform">
           <p className="text-2xl text-mywhite font-clashR">
             Bild
           </p>
