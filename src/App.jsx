@@ -25,13 +25,6 @@ function App() {
             <AboutSection />
           </div>
           <div
-            id="section3"
-            class="w-full relative box-border lg:h-screen lg:snap-center p-10 bg-#101010"
-          >
-            <div className="align-middle self-center justify-center "></div>
-          </div>
-
-          <div
             id="section4"
             class="w-full relative box-border lg:h-screen lg:snap-center p-10"
           >
