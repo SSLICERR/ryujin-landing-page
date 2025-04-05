@@ -1,10 +1,18 @@
 import React from "react";
 
 const Footer = () => (
-  <footer class="lg:snap-center h-1/2 box-border w-full relative mt-1/2 bg-black/50 backdrop-blur-sm p-10">
+  <footer class="lg:snap-center  box-border w-full relative mt-1/2 bg-black/50 backdrop-blur-sm p-10 bg-myblack">
     <div class="md:grid grid-cols-2 w-full text-white">
       <div class=" flex flex-col">
-        <h1 class="font-clashB text-4xl mb-2 text-mywhite">Macher Game Studios</h1>
+        <h1 class="font-clashB text-4xl mb-2 text-mywhite">
+          Macher Game Studios
+        </h1>
+        <a
+          class="hover:underline text-mywhite font-clashR"
+          href="/ryujin-landing-page"
+        >
+          Home
+        </a>
         <a
           class="hover:underline text-mywhite font-clashR"
           href="/ryujin-landing-page/imprint"
@@ -41,10 +49,10 @@ const Footer = () => (
           E-Mail
         </a>
       </div>
-    </div>
-    <div class="absolute pt-50 left-10 text-mywhite font-clashR inline-block">
-      © Copyright macher game studios 2025 - All rights reserved. <br></br>
-      made with ♡ by slicer.
+      <div class="pt-20 left-10 text-mywhite font-clashR inline-block ">
+        © Copyright macher game studios 2025 - All rights reserved. <br></br>
+        made with ♡ by slicer.
+      </div>
     </div>
   </footer>
 );
