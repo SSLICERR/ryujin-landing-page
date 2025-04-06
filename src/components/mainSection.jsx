@@ -16,7 +16,7 @@ const MainSection = () => {
         </div>
         <div className="p-20 text-center">
           <button className="btn btn-neutral" href="/">
-            Join Waitlist
+            JOIN WAITLIST
           </button>
         </div>
         <div className="text-center mt-100">
