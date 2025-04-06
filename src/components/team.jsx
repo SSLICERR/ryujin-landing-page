@@ -6,21 +6,25 @@ const profiles = [
     name: "Max",
     role: "Back End / Web Dev / Team Lead",
     github: "https://github.com/SSLICERR",
+    username: "SSLICERR",
   },
   {
     name: "Efe",
     role: "Front End / Design",
     github: "https://github.com/Prof-Dr-Macher-Efe",
+    username: "Prof-Dr-Macher-Efe",
   },
   {
     name: "Bahty",
     role: "Design / 3D Modeling",
     github: "https://github.com/zbahty",
+    username: "zbahty",
   },
   {
     name: "Can",
     role: "Lead Back End",
     github: "https://github.com/Javaistcooler",
+    username: "Javaistcooler",
   },
   {
     name: "Levy",
