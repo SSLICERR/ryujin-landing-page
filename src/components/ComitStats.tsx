@@ -3,7 +3,7 @@ import { animate, useInView } from "framer-motion";
 import axios from "axios";
 
 const GITHUB_API_BASE_URL = "https://api.github.com/repos/SSLICERR/ryijun-landing-page";
-const GITHUB_ACCESS_TOKEN = import.meta.env.VITE_GITHUB_ACCESS_TOKEN;
+const GITHUB_ACCESS_TOKEN = "";
 
 export const CommitStats = () => {
   const [repoStats, setRepoStats] = useState({
