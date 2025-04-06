@@ -39,7 +39,7 @@ const TeamSection = () => (
       id="TeamTitle"
       className="relative z-10 font-clashB text-3xl md:text-5xl text-mywhite"
     >
-      Our Team
+      Unser Team
     </h1>
     <div className="relative z-10 grid grid-cols-5 grid-rows-1 gap-4 p-10 mt-10">
       {profiles.map((profile) => (
