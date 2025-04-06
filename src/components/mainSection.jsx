@@ -14,10 +14,8 @@ const MainSection = () => {
         <div className="flex justify-center items-center">
           <img src={logosvg} alt="" className="w-70" />
         </div>
-
-        
         <div className="p-20 text-center">
-        <button className="btn btn-neutral" href="/">
+          <button className="btn btn-neutral" href="/">
             Join Waitlist
           </button>
         </div>
