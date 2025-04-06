@@ -1,6 +1,7 @@
 import React from "react";
 import char from "../assets/char.gif";
 import char2 from "../assets/fertgig.png";
+import char3 from "../assets/image.png";
 
 const AboutSection = () => (
   <>
@@ -32,8 +33,12 @@ const AboutSection = () => (
           </p>
         </div>
 
-        <div className="col-start-3 col-end-4 row-start-1 row-end-2 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-xl hover:shadow-[0px_0px_193px_0px_rgba(252,252,252,0.8)] transition-transform">
-          <img className="w-50" src={char} alt="" />
+        <div className=" col-start-3 col-end-4 row-start-1 row-end-2 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-xl hover:shadow-[0px_0px_193px_0px_rgba(252,252,252,0.8)] transition-transform">
+          <img
+            className="w-50 align-middle block ml-auto mr-auto "
+            src={char}
+            alt=""
+          />
         </div>
 
         {/* New row starts here */}
@@ -47,7 +52,7 @@ const AboutSection = () => (
         </div>
 
         <div className="col-start-3 col-end-4 row-start-3 row-end-4 p-5 border border-myoutline bg-mygray rounded-lg backdrop-blur-lg transition-transform">
-          <p className="text-2xl text-mywhite font-clashR">Bild</p>
+          <img className="w-80" src={char3} alt="" />
         </div>
       </div>
     </div>
