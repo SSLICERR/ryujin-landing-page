@@ -2,10 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { animate, useInView } from "framer-motion";
 import axios from "axios";
 
-
-const GITHUB_API_BASE_URL =
-  "https://api.github.com/repos/SSLICERR/ryijun-landing-page";
-const GITHUB_ACCESS_TOKEN = ""// Replace with your actual token
+const GITHUB_API_BASE_URL = "https://api.github.com/repos/SSLICERR/ryijun-landing-page";
+const GITHUB_ACCESS_TOKEN = import.meta.env.VITE_GITHUB_ACCESS_TOKEN;
 
 export const CommitStats = () => {
   const [repoStats, setRepoStats] = useState({
@@ -95,8 +93,8 @@ export const CommitStats = () => {
         <div className="h-[1px] w-12 bg-indigo-200 sm:h-12 sm:w-[1px]" />
         <Stat
           num={parseInt(repoStats.timeWorked)}
-          suffix=" days"
-          subheading="Time Worked"
+          suffix=""
+          subheading="days"
         />
       </div>
     </div>
