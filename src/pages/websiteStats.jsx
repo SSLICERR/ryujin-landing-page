@@ -13,7 +13,7 @@ const WebsiteStats = () => {
       </head>
       <body className="bg-myblack">
         <div>
-          <h1 className="text-mywhite text-6xl font-clashB text-center">
+          <h1 className="text-mywhite text-6xl font-clashB text-center pt-10">
             This website took:
           </h1>
           <CommitStats />
@@ -21,8 +21,9 @@ const WebsiteStats = () => {
             to be made.
           </h1>
         </div>
-
-        <Footer />
+        <div className="mt-50 bg-myblack">
+          <Footer />
+        </div>
       </body>
     </>
   );
